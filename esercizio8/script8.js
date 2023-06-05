@@ -30,15 +30,15 @@
 
 
 
-// let btnChangeColor = document.querySelector('.btnChangeColor')
-// let colorCustom = document.querySelector('.colorCustom')
+let btnChangeColor = document.querySelector('.btnChangeColor')
+let colorCustom = document.querySelector('.colorCustom')
 
-// btnChangeColor.addEventListener('click',() => {
+btnChangeColor.addEventListener('click',() => {
     
-//     colorCustom.classList.toggle('color')
+    colorCustom.classList.toggle('color')
     
 
-// })
+})
 
 
 

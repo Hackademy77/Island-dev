@@ -19,24 +19,24 @@
 
 
 
-// let openingDays =[
-//           {day : 'monday' , from : '9.00' , to : "18.00"},
-//           {day : 'tuesday' , from : '9.00' , to : "18.00"},
-//           {day : 'wednesday' , from : '9.00' , to : "18.00"},
-//           {day : 'thursday' , from : '9.00' , to : "18.00"},
-//           {day : 'saturday' , from : '9.00' , to : "18.00"},
-//           {day : 'sunday' , from : '9.00' , to : "18.00"},
-//         ];
+let openingDays =[
+          {day : 'monday' , from : '9.00' , to : "18.00"},
+          {day : 'tuesday' , from : '9.00' , to : "18.00"},
+          {day : 'wednesday' , from : '9.00' , to : "18.00"},
+          {day : 'thursday' , from : '9.00' , to : "18.00"},
+          {day : 'saturday' , from : '9.00' , to : "18.00"},
+          {day : 'sunday' , from : '9.00' , to : "18.00"},
+        ];
 
-//         let openings = document.querySelector('#openings')
+        let openings = document.querySelector('#openings')
         
 
-//         openingDays.forEach((dayOpen) => {
-//             let li = document.createElement ('li')
-//             li.innerHTML = ` 
-//             ${dayOpen.day} , from ${dayOpen.from} , to ${dayOpen.to}`
-//             openings.appendChild(li)
-//          })
+        openingDays.forEach((dayOpen) => {
+            let li = document.createElement ('li')
+            li.innerHTML = ` 
+            ${dayOpen.day} , from ${dayOpen.from} , to ${dayOpen.to}`
+            openings.appendChild(li)
+         })
        
         
       
