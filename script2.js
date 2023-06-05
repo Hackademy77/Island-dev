@@ -40,7 +40,7 @@
 
 
 
-
+// creare funzione che crea tramite la map un nuovo array e con la string interpolation si aggiungono i valori
 //     function greeting() {
 
 //         let newArray = list.map((developer) => developer.greeting = `Hi ${developer.firstName} , what do you like the most about ${developer.language} ?`)

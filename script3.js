@@ -23,6 +23,8 @@
 //           { firstName: 'Jayden', lastName: 'P.', country: 'Jamaica', continent: 'Americas', age: 42, eyes: 'Green' }
 //         ];
 
+
+// creare funzione che con la map filtra il parametro eyes con il metodo includes 
 //         function eyes() {
 //             let eyes = list.map((developer) => developer.eyes)
 //             return (eyes.includes('Green'));
