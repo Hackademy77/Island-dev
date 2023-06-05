@@ -20,9 +20,13 @@
 //             { firstName: 'Piotr', lastName: 'B.', country: 'Poland', continent: 'Europe', age: 128, logged: false },
 //             { firstName: 'Jayden', lastName: 'P.', country: 'Jamaica', continent: 'Americas', age: 42, logged: true }
 //         ];
-//         let name1 = prompt('Inserisci un nome')
-//         function logged(name) {
+//         
+
+//     let name1 = prompt('Inserisci un nome')
+//         
+//          function logged(name) {
 //             let confirm = false
+
 //             list.map((person) => {
 //                 if(person.firstName == name && person.logged == true) {
 //                   confirm = true 
@@ -36,5 +40,8 @@
 
 //             }
 //         }
+
+
+
 //         logged(name1)
 
